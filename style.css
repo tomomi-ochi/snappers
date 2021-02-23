@@ -145,7 +145,7 @@ footer small {
 }
 
 #about {
-  background-image: url("../images/bg-about.jpg");
+  background-image: url("/bg-about.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -267,7 +267,7 @@ a img:hover {
 }
 
 #photograph {
-  background-image: url("../images/bg-photograph.jpg");
+  background-image: url("/bg-photograph.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -285,7 +285,7 @@ a img:hover {
 }
 
 #video {
-  background-image: url("../images/bg-video.jpg");
+  background-image: url("/bg-video.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -293,7 +293,7 @@ a img:hover {
 }
 
 #contact {
-  background-image: url("../images/bg-contact.jpg");
+  background-image: url("/bg-contact.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -446,7 +446,7 @@ a img:hover {
   }
   
   #portfolio {
-    background-image: url("../imagas/bg-portfolio-sp.jpg");
+    background-image: url("/bg-portfolio-sp.jpg");
   }
   
   .sidebar {
