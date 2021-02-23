@@ -229,7 +229,7 @@ footer {
 }
 
 #portfolio {
-  background-image: url("../images/bg-portfolio.jpg");
+  background-image: url("/bg-portfolio.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
