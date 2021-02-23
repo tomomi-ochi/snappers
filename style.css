@@ -145,7 +145,7 @@ footer small {
 }
 
 #about {
-  background-image: url("/bg-about.jpg");
+  background-image: url("images/bg-about.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
