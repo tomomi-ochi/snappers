@@ -393,6 +393,7 @@ a img:hover {
 /* ------- 768px以下 ------- */
 
 @media screen and (max-width:768px) {
+
   
   body {
     font-size: 3.5vw;
@@ -543,7 +544,8 @@ a img:hover {
   
   #contact .form {
     background-color: #eaeaea;
-    padding: 20px 30px; 
+    padding: 20px 30px;
+    
   }
 
   #contact .form dl dt {
@@ -591,11 +593,14 @@ a img:hover {
     background-image: url(../images/bg-photograph-sp.jpg);
   }
   
-  
   #photograph .photograph-list li {
-    margin: 0 0 15px 0;
-    float: none;
-    text-align: center;
+    float: left;
+    list-style: none;
+    margin: 0 13px 20px 0;
+  }
+
+  #photograph .photograph-list li:nth-child(3n) {
+    margin-right: 0;
   }
   
   
@@ -609,6 +614,12 @@ a img:hover {
 /* -----600px以下------ */
 
 @media screen and (max-width:600px) {
+  
+  #photograph .photograph-list li {
+    margin: 0 0 15px 0;
+    float: none;
+    text-align: center;
+  }
   
   #contact .form {
     padding: 10px 25px;
