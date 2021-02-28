@@ -137,7 +137,7 @@ footer small {
 }
 
 #index {
-  background-image: url("images/camera.jpg");
+  background-image: url(../images/camera.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -145,7 +145,7 @@ footer small {
 }
 
 #about {
-  background-image: url("images/bg-about.jpg");
+  background-image: url(../images/bg-about.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -176,7 +176,7 @@ h2 {
 
 #about .profile-txt {
   width: 540px;
-  float: left
+  float: left;
 }
 
 #about .profile-txt span {
@@ -229,7 +229,7 @@ footer {
 }
 
 #portfolio {
-  background-image: url("images/bg-portfolio.jpg");
+  background-image: url(../images/bg-portfolio.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -267,7 +267,7 @@ a img:hover {
 }
 
 #photograph {
-  background-image: url("images/bg-photograph.jpg");
+  background-image: url(../images/bg-photograph.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -285,7 +285,7 @@ a img:hover {
 }
 
 #video {
-  background-image: url("images/bg-video.jpg");
+  background-image: url(../images/bg-video.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -293,7 +293,7 @@ a img:hover {
 }
 
 #contact {
-  background-image: url("images/bg-contact.jpg");
+  background-image: url(../images/bg-contact.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -389,8 +389,11 @@ a img:hover {
   margin: 20px 0 0 165px;
 }
 
-@media screen and (max-width:600px) {
-/* 画面サイズが600px以下の場合に適用 */
+
+/* ------- 768px以下 ------- */
+
+@media screen and (max-width:768px) {
+  
   body {
     font-size: 3.5vw;
   }
@@ -435,7 +438,7 @@ a img:hover {
     width: 100%;
   }
   
-  .main {
+  .main,.main-center {
     float: none;
     width: auto;
     margin: 0 5%;
@@ -444,9 +447,12 @@ a img:hover {
   h2 img {
     max-width: 100%;
   }
+     
   
+/*  ---portfolio---  */
   #portfolio {
-    background-image: url("images/bg-portfolio-sp.jpg");
+    background-image: url(../images/bg-portfolio-sp.jpg);
+    background-position: top center;
   }
   
   .sidebar {
@@ -457,4 +463,207 @@ a img:hover {
     background-color: #f7f6f4;
   }
   
+  
+/*  ---index---*/
+  #index {
+    background-image: url(../images/bg-index-sp.jpg);
+    background-position: center;
+  }
+  
+  #index .content {
+    margin: 90px 5%;
+    width: auto;
+  }
+  
+  #index h1 {
+    font-size: 15.5vw;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  #index footer {
+    width: auto;
+    text-align: center;
+    background-color: transparent;
+    margin: 0;
+  }
+  
+  #index .btn a {
+    margin: 0 auto;
+  }
+  
+  #index p {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+ 
+/* ---about--- */
+  #about {
+    background-image: url(../images/bg-about-sp.jpg);
+    background-color: #ffffff;
+  }
+  
+  #about .profile-txt {
+    float: none;
+    width: auto;
+    text-align: justify;
+  }
+  
+  #about .profile-image {
+    float: none;
+    width: 100%;
+  }
+  
+  #about .career td {
+    padding: 10px 0 10px 5px;
+  }
+  
+  
+/*  ---contact---  */
+  #contact {
+    background-image: url(../images/bg-contact-sp.jpg);
+    background-color: #ffffff;
+  }
+  
+  #contact .access table {
+    float: none;
+    margin-bottom: 25px;
+  }
+  
+  #contact .access td {
+    padding-left: 2px;
+  }
+  
+  #contact .access iframe {
+    float: none;
+    width: 100%;
+  }
+  
+  #contact .form {
+    background-color: #eaeaea;
+    padding: 20px 30px; 
+  }
+
+  #contact .form dl dt {
+    width: 250px;
+    padding: 25px 20px;
+  }
+
+  #contact .form dl dd {
+    padding: 25px;
+  }
+
+  #contact .form .name {
+    width: 240px;
+    height: 40px;
+  }
+
+  #contact .form .email {
+    width: 300px;
+    height: 40px;
+  }
+
+  #contact .form .tel {
+    width: 240px;
+    height: 40px;
+  }
+
+  #contact .form .type {
+    width: 250px;
+    height: 40px;
+  }
+
+  #contact .form .message {
+    width: 470px;
+    height: 180px;
+  } 
+  
+  #contact .form button,
+  #contact .form .attention {
+    margin: 20px  auto;
+  }
+  
+  
+/*  ---photograph---  */
+  #photograph {
+    background-image: url(../images/bg-photograph-sp.jpg);
+  }
+  
+  
+  #photograph .photograph-list li {
+    margin: 0 0 15px 0;
+    float: none;
+    text-align: center;
+  }
+  
+  
+/*  ---video---  */
+  #video {
+    background-image: url(../images/bg-video-sp.jpg);
+  }
 }
+
+
+/* -----600px以下------ */
+
+@media screen and (max-width:600px) {
+  
+  #contact .form {
+    padding: 10px 25px;
+  } 
+  
+  #contact .form dl dt {
+    float: none;
+    padding: 10px 0 0;
+  }
+  
+  #contact .form dl dd {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #contact .form .name {
+    width: 200px;
+    height: 30px;
+  }
+
+  #contact .form .email {
+    width: 210px;
+    height: 30px;
+  }
+
+  #contact .form .tel {
+    width: 200px;
+    height: 30px;
+  }
+
+  #contact .form .type {
+    width: 220px;
+    height: 30px;
+  }
+
+  #contact .form .message {
+    width: 220px;
+    height: 120px;
+  }
+  
+  #contact .form button {
+    background-color: #009cd3;
+    color: #ffffff;
+    font-size: 18px;
+    width: 90px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 3px solid #009cd3;
+    margin: 0 auto;
+  }
+  
+  #contact .form .attention {
+    margin: 25px 0;
+  }
+}
+
