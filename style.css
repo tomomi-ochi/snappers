@@ -145,7 +145,7 @@ footer small {
 }
 
 #about {
-  background-image: url(../images/bg-about.jpg);
+  background-image: url(bg-about.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -293,7 +293,7 @@ a img:hover {
 }
 
 #contact {
-  background-image: url(../images/bg-contact.jpg);
+  background-image: url(bg-contact.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
