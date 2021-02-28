@@ -137,7 +137,7 @@ footer small {
 }
 
 #index {
-  background-image: url(/images/camera.jpg);
+  background-image: url(../images/camera.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -677,4 +677,5 @@ a img:hover {
     margin: 25px 0;
   }
 }
+
 
