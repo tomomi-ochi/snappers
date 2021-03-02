@@ -608,6 +608,10 @@ a img:hover {
   #video {
     background-image: url(bg-video-sp.jpg);
   }
+  
+  #video iframe {
+    width: 100%;
+  }
 }
 
 
